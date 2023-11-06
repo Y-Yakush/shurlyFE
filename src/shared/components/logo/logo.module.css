@@ -1,0 +1,13 @@
+.title {
+    color:  var(--mantine-color-dark-7);
+    font-family: Greycliff CF, var(--mantine-font-family);
+    line-height: 1;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+
+    @mixin hover{ 
+        color: var(--mantine-color-dark-4);
+    }
+  }
+
